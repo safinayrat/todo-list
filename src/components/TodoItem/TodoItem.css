@@ -1,0 +1,24 @@
+.TodoItem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.TodoItem-Item {
+  width: 100%;
+  margin-left: 3px;
+  font-size: 18px;
+  overflow: hidden;
+}
+.TodoItem-Item:first-child {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 800px) {
+  .TodoItem-Item:first-child {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,23 @@
+.ItemAddForm {
+  width: 100%;
+}
+
+.ItemAddForm-Button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  width: 45%;
+  font-size: 20px;
+}
+
+.ItemAddForm-Input {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+  .ItemAddForm-Button {
+    width: 20%;
+  }
+}

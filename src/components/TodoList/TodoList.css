@@ -1,0 +1,19 @@
+.TodoList {
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .TodoList {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .TodoList {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .TodoList {
+    width: 35%;
+  }
+}

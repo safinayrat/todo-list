@@ -1,0 +1,21 @@
+.Button {
+  height: 40px;
+  font-family: "Indie Flower", cursive;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+}
+.Button:active {
+  background-color: #374b60;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .Button {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Button {
+    width: 10%;
+  }
+}

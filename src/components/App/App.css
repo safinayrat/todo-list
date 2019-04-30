@@ -1,0 +1,20 @@
+.App {
+  display: block;
+  min-height: 100vh;
+  max-width: 100%;
+  padding: 0 5px;
+  background: #512da8;
+  color: white;
+}
+.App-Header {
+  margin: 0;
+}
+
+.App-SearchPanel {
+  margin: 0 auto;
+}
+
+.App-TodoList {
+  margin: 10px auto;
+  padding: 0;
+}
